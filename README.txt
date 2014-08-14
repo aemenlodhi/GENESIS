@@ -4,11 +4,11 @@ GENESIS has been implemented using C++. GENESIS has evolved with my dissertation
 
 GENESIS so far has 3 versions:
 
-GENESIS 1.0: The earliest (and crudest) version of GENESIS which could handle only 500 nodes. GENESIS 1.0 followed a different network formation model, i.e., all nodes acted simultaneously, a major constraint, in such simulations. GENESIS 1.0 was used in our publication for NetEcon 2010.
+GENESIS 1.0: The earliest version of GENESIS which can handle 1000 nodes. The results were published in IEEE InfoCom 2012.
 
-GENESIS 2.0: This was a major change from 1.0. The results were published in IEEE InfoCom 2012.
+GENESIS 2.0: GENESIS 2.0 followed a the same timing model as GENESIS 1.0 but changed the way nodes adopted peering strategies. The results were published in InfoCom 2014.
 
-GENESIS 3.0: This is the latest version of GENESIS which is stable and is more realistic than any previous models. 
+GENESIS 3.0: This is the latest version of GENESIS which is stable and is more realistic than any previous models. It can handle 2000 nodes and employs more realistic peering at IXPs.
 
 GENESIS 4.0: This is the planned version of GENESIS which will be released in future and will mark the end of project. GENESIS 4.0 is expected to scale to at least 25000 nodes.
 
